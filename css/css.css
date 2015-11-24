@@ -10,21 +10,27 @@ body							{
 								width:100px;
 								height:80%;
 								font-size:20px;
-								 transition:background 2s;
-								 border:0px solid white;
-								 padding-top:10px;
+								transition:background 2s;
+								border:0px solid white;
+								padding-top:10px;
+								cursor:pointer;
 								}
 .menu:hover						{
-								 background:#B8AEAE;
+								background:#B8AEAE;
 								}
 .kotak							{
 								width:100%;
-								height:10%;
+								height:55px;
 								border:1px solid black;
 								background:#323232;
 								position:fixed;
 								padding-left:100px;
 								z-index:1;
+								}
+.logo							{
+								float:left;
+								width:100px;
+								cursor:pointer;
 								}
 
 .header							{
@@ -35,10 +41,12 @@ body							{
 								position:fixed;
 								padding-left:10px;
 								padding-top:10px;
+								padding-bottom:10px;
 								width:84%;
-								height:8%;
+								height:35px;
 								}
 .isi							{
+								font-family:arial;
 								background:#F7F3E8;
 								color:#000000;
 								font-size:20px;
@@ -51,7 +59,7 @@ body							{
 								border:1px solid black;
 								}
 .gambar							{
-								width:85%;
+								width:1147px;
 								margin-left:100px;
 								border:1px solid black;
 								}
@@ -71,12 +79,26 @@ body							{
 								top:0;
 								}
 .kolom img						{
-								transition:1.5s;}
+								transition:1.5s;
+								-moz-transition:1.5s;
+								-webkit-transition:1.5s;
+								-o-transition:1.5s;
+								-ms-transition:1.5s;
+								}
 .kolom:hover img 				{
-								transform:scale(1.1);}
+								transform:scale(1.1);
+								-moz-transform:scale(1.1);
+								-webkit-transform:scale(1.1);
+								-o-transform:scale(1.1);
+								-ms-transform:scale(1.1);
+								}
 .caption						{
 								transition:all .4s ease-in;
 								transition-delay:.5s;
+								-moz-transition-delay:.5s;
+								-webkit-transition-delay:.5s;
+								-o-transition-delay:.5s;
+								-ms-transition-delay:.5s;
 								opacity:0;
 								position:absolute;
 								top:-100%;
@@ -88,12 +110,24 @@ body							{
 								}
 .caption p						{
 								transition-delay:1.2s;
+								-moz-transition-delay:1.2s;
+								-webkit-transition-delay:1.2s;
+								-o-transition-delay:1.2s;
+								-ms-transition-delay:1.2s;
 								}
 .caption h3						{
 								transition-delay:1s;
+								-moz-transition-delay:1s;
+								-webkit-transition-delay:1s;
+								-o-transition-delay:1s;
+								-ms-transition-delay:1s;
 								}
 .caption h3, .caption p 			{
 								transition:all .4s;
+								-moz-transition:all .4s;
+								-webkit-transition:all .4s;
+								-o-transition:all .4s;
+								-ms-transition:all .4s;
 								padding:20px 20px 10px 10px;
 								margin-top:0px;
 								margin-bottom:0px;
@@ -102,6 +136,7 @@ body							{
 								}
 .kolom:hover h3, .kolom:hover p	{left:0;}
 .caption						{
+								padding:10px 10px 10px 10px;
 								margin-top:20px;
 								background-color:black;
 								}
