@@ -1,0 +1,212 @@
+<html>
+	<head>
+		<title>Vegetarian</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<style>
+body							{
+								font-family:arial;
+								margin:0px 0px 0px 0px;
+								padding:0px;
+								background-color: #cccccc;
+								}
+.menu							{
+								text-align: center;
+								float:right;
+								width:100px;
+								height:300%;
+								font-size:20px;
+								transition:background 2s;
+								border:0px solid white;
+								padding-top:10px;
+								cursor:pointer;
+								}
+.menu:hover						{
+								background:#B8AEAE;
+								}
+.kotak							{
+								width:100%;
+								height:65px;
+								border:1px solid black;
+								background:#323232;
+								position:fixed;
+								padding-left:100px;
+								z-index:1;
+								}
+.logo							{
+								float:left;
+								width:100px;
+								cursor:pointer;
+								}
+
+.header							{
+								font-family:Times New Roman;
+								font-size:35px;
+								color:white;
+								background:#323232;
+								position:fixed;
+								padding-left:10px;
+								padding-top:10px;
+								padding-bottom:10px;
+								width:84%;
+								height:35px;
+								}
+.isi							{
+								font-family:arial;
+								background:#F7F3E8;
+								color:#000000;
+								font-size:20px;
+								padding-top:30px;
+								padding-left:70px;
+								padding-right:70px;
+								margin-left:100px;
+								width:87%;
+								height:800px;
+								border:1px solid black;
+								}
+.gambar							{
+								width:87%;
+								margin-left:100px;
+								border:1px solid black;
+								}
+.kolom							{
+								margin-top:30px;
+								margin-left:56px;
+								width:250px;
+								height:280px;
+								border:2px solid white;
+								cursor:pointer;
+								overflow:hidden;
+								float:left;
+								position:relative;
+								}
+.kolom:hover .caption			{
+								opacity:0.9;
+								top:0;
+								}
+.kolom img						{
+								transition:1.5s;
+								-moz-transition:1.5s;
+								-webkit-transition:1.5s;
+								-o-transition:1.5s;
+								-ms-transition:1.5s;
+								}
+.kolom:hover img 				{
+								transform:scale(1.1);
+								-moz-transform:scale(1.1);
+								-webkit-transform:scale(1.1);
+								-o-transform:scale(1.1);
+								-ms-transform:scale(1.1);
+								}
+.caption						{
+								transition:all .4s ease-in;
+								transition-delay:.5s;
+								-moz-transition-delay:.5s;
+								-webkit-transition-delay:.5s;
+								-o-transition-delay:.5s;
+								-ms-transition-delay:.5s;
+								opacity:0;
+								position:absolute;
+								top:-100%;
+								width:100%;
+								height:100%;
+								background-color:rgba(0,0,0,4);
+								color:white;
+								font-family:arial;
+								}
+.caption p						{
+								transition-delay:1.2s;
+								-moz-transition-delay:1.2s;
+								-webkit-transition-delay:1.2s;
+								-o-transition-delay:1.2s;
+								-ms-transition-delay:1.2s;
+								}
+.caption h3						{
+								transition-delay:1s;
+								-moz-transition-delay:1s;
+								-webkit-transition-delay:1s;
+								-o-transition-delay:1s;
+								-ms-transition-delay:1s;
+								}
+.caption h3, .caption p 			{
+								transition:all .4s;
+								-moz-transition:all .4s;
+								-webkit-transition:all .4s;
+								-o-transition:all .4s;
+								-ms-transition:all .4s;
+								padding:20px 20px 10px 10px;
+								margin-top:0px;
+								margin-bottom:0px;
+								position:relative;
+								left:100%;
+								}
+.kolom:hover h3, .kolom:hover p	{left:0;}
+.caption						{
+								padding:10px 10px 10px 10px;
+								margin-top:20px;
+								background-color:black;
+								}
+.footer							{
+								margin-left:100px;
+								width:87%;
+								height:50px;
+								border:1px solid black;
+								color:white;
+								background:#323232;
+								text-align:center;
+								font-family:Times New Roman;
+								padding-top:30px;
+								}
+
+		</style>
+	</head>
+	<body>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="kotak">
+				<div class="header">
+					<div class=logo>Vegetarian</div>
+					<div class=menu>About</div>
+					<div class=menu>Places</div>
+					<div class=menu>Foods</div>
+					<div class=menu>Home</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="gambar">
+					<img src="image/veg1.jpg" width="100%" height="500px">
+				</div>
+				<div class="isi">
+					<p>Vegetarian adalah sebutan bagi orang yang hanya makan tumbuh-tumbuhan dan tidak mengonsumsi makanan yang berasal dari makhluk hidup seperti daging dan unggas, namun masih mungkin mengonsumsi makanan laut seperti ikan, atau produk olahan hewan seperti telur, keju, atau susu.</p><br>
+					<div class="kolom"><img src="image/lacto.jpg" alt="lacto" title="lacto" width="100%" height="100%">
+						<div class="caption"><h3>Lacto Vegetarian</h3><p>Lacto Vegetarian adalah sebutan untuk pemakan susu dan produk olahan nya</p></div>
+					</div>
+					<div class="kolom"><img src="image/ovo2.png" width="100%" height="100%">
+						<div class="caption"><h3>Ovo Vegetarian</h3><p>Lacto Vegetarian adalah sebutan untuk pemakan susu dan produk olahan nya</p></div>
+					</div>
+					<div class="kolom"><img src="image/fish.jpg" width="100%" height="100%">
+						<div class="caption"><h3>Pasto Vegetarian</h3><p>Lacto Vegetarian adalah sebutan untuk pemakan susu dan produk olahan nya</p></div>
+					</div>
+					<div class="kolom"><img src="image/veget1.jpg" width="100%" height="100%">
+						<div class="caption"><h3>Vegetarian</h3><p>Lacto Vegetarian adalah sebutan untuk pemakan susu dan produk olahan nya</p></div>
+					</div>
+					<div class="kolom"><img src="image/vegan.jpg" width="100%" height="100%">
+						<div class="caption"><h3>Vegan</h3><p>Lacto Vegetarian adalah sebutan untuk pemakan susu dan produk olahan nya</p></div>
+					</div>
+					<div class="kolom"><img src="image/fruit.jpg" width="100%" height="100%">
+						<div class="caption"><h3>Frutarian</h3><p>Lacto Vegetarian adalah sebutan untuk pemakan susu dan produk olahan nya</p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+				<div class="col-md-12">
+					<div class="footer">&copy 2015 Andri Gunawan - All Rights Reserved</div>
+				</div>
+		</div>
+	</div>
+	</body>
+</html>
