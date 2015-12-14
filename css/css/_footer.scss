@@ -1,17 +1,17 @@
 $break-small:480px;
 
-.footer							{
-								margin-left:100px;
-								width:87%;
-								height:50px;
-								border:1px solid black;
-								color:white;
-								background:#323232;
-								text-align:center;
-								font-family:Times New Roman;
-								padding-top:30px;
+.footer {
+	margin-left:80px;
+	width:90%;
+	height:25px;
+	border:1px solid black;
+	color:white;
+	background:#323232;
+	text-align:center;
+	font-family:Times New Roman;
+	padding-top:15px;
 	@media screen and (max-width:$break-small) {
-								margin-left:3px;
-								width:446px;
-								}
-								}
+		margin-left:3px;
+		width:446px;
+	}
+}

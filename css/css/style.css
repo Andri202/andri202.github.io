@@ -659,9 +659,8 @@
   width: 100px;
   height: 100%;
   font-size: 20px;
-  transition: background 1s;
-  border: 0px solid white;
-  padding-top: 10px;
+  transition: background 0.5s;
+  padding-top: 6px;
   cursor: pointer; }
   .menu:hover {
     background: #B8AEAE; }
@@ -672,7 +671,7 @@
 
 .kotak {
   width: 100%;
-  height: 65px;
+  height: 55px;
   border: 1px solid black;
   background: #323232;
   position: fixed;
@@ -685,6 +684,7 @@
       width: 480px; } }
 
 .logo {
+  font-weight: bold;
   float: left;
   width: 100px;
   cursor: pointer; }
@@ -699,7 +699,7 @@
   background: #323232;
   position: fixed;
   padding-left: 10px;
-  padding-top: 10px;
+  padding-top: 8px;
   padding-bottom: 10px;
   width: 84%;
   height: 35px; }
@@ -709,8 +709,9 @@
       position: static; } }
 
 .gambar {
-  width: 87%;
-  margin-left: 100px;
+  width: 90%;
+  height: 80%;
+  margin-left: 80px;
   border: 1px solid black; }
   @media screen and (max-width: 480px) {
     .gambar {
@@ -719,6 +720,7 @@
       height: 298px; } }
 
 .isi {
+  text-align: justify;
   font-family: arial;
   background: #F7F3E8;
   color: #000000;
@@ -726,8 +728,8 @@
   padding-top: 30px;
   padding-left: 70px;
   padding-right: 70px;
-  margin-left: 100px;
-  width: 76.64%;
+  margin-left: 80px;
+  width: 79.33%;
   height: 800px;
   border: 1px solid black; }
   @media screen and (max-width: 480px) {
@@ -820,15 +822,15 @@
   background-color: black; }
 
 .footer {
-  margin-left: 100px;
-  width: 87%;
-  height: 50px;
+  margin-left: 80px;
+  width: 90%;
+  height: 25px;
   border: 1px solid black;
   color: white;
   background: #323232;
   text-align: center;
   font-family: Times New Roman;
-  padding-top: 30px; }
+  padding-top: 15px; }
   @media screen and (max-width: 480px) {
     .footer {
       margin-left: 3px;
@@ -837,6 +839,7 @@
 body {
   font-family: arial;
   margin: 0px 0px 0px 0px;
-  background-color: #cccccc; }
+  background-color: #cccccc;
+  width: 1304px; }
 
 /*# sourceMappingURL=style.css.map */
